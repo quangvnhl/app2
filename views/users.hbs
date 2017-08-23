@@ -1,0 +1,20 @@
+<table class="bordered striped highlight centered">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Fullname</th>
+      <th>Email</th>
+      <th>Token</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{# each users as |val key| }}
+      <tr>
+          <td>{{ key }}</td>
+          <td>{{val.fullname}}</td>
+          <td>{{val.email}}</td>
+          <td>token</td>
+      </tr>
+    {{/each }}
+  </tbody>
+</table>

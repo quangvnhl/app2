@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ title }}</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col l3 s12">
+        <div class="collection">
+          <a href="/" class="collection-item">Home</a>
+          <a href="/users" class="collection-item">List persons</a>
+          <a href="/user_add" class="collection-item">Add a person</a>
+        </div>
+      </div>
+      <div class="col l9 s12">
+        {{{ body }}}
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+</body>
+</html>
